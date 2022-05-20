@@ -20,7 +20,7 @@
 	
 	
 	<!-- Table tag -->
-	<table border=1>
+	<table border=1 cellspacing="0" cellpadding="5">
 		<tr>
 			<th>글번호</th>
 			<th>글제목</th>
@@ -52,17 +52,12 @@
 	<hr/>
 	
 	<!-- link tag -->
-	<a href="/helloweb/hello">hello로 가기</a>
+	<a href="/helloweb/hello?name=test">hello로 가기</a>
 	</br>
 	<a href="form.jsp">폼으로 가기</a>
 	
 	</hr>
 	
-	<!-- p tag -->
-	<p>
-		뢀ㄹ라랄라라라 문장쓰는 태그인데 </br>
-		br을 계속 달아줘야 Enter 효과를 볼 수 <b>있습니다</b>
-	</p>
 	
 	
 </body>
