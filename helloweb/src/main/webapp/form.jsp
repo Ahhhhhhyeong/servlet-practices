@@ -23,7 +23,7 @@
 			<option value="1999">1999년</option>
 		</select>
 		<br/><br/>
-		S
+		
 		성별:
 		여<input type="radio" name="gender" value="female" checked="checked" />
 		남<input type="radio" name="gender" value="male" />
