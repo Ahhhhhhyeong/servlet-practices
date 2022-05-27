@@ -15,7 +15,7 @@
 	<c:set var='count' value='${fn:length(list) }' />
 	<!-- 값 반복 -->
 	<c:forEach items='${list }' var='vo' varStatus='status'>
-		<strong>[${fn:length(list)-status.index }]</strong> 
+		<strong>[${count-status.index }]</strong> 
 		<span>(${status.index }:${status.count })[${vo.no }:${vo.name }]</span>
 		<br/>
 	</c:forEach>
